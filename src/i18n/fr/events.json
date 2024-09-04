@@ -1,0 +1,61 @@
+{
+  "exceptions": {
+    "email_already_exists": "L'adresse e-mail {email} est déjà enregistrée.",
+    "business_to_customer_point_card_not_found": "CustomerPointCard pour BusinessPointCard avec l'ID {businessCardId} non trouvée",
+    "company_logo_invalid_svg": "Le fichier téléchargé n'est pas un fichier SVG valide.",
+    "company_not_found_by_point_card": "Aucune entreprise trouvée avec l'ID de PointCard {id}.",
+    "company_not_found_email": "Entreprise avec l'ID {id} non trouvée.",
+    "company_not_found": "Entreprise avec l'ID {id} non trouvée.",
+    "company_uid_already_exists": "L'entreprise avec l'UID {uId} est déjà enregistrée.",
+    "customer_point_card_creation_error": "Erreur lors de la création d'une nouvelle CustomerPointCard : {errorDetail}",
+    "customer_point_card_not_found": "Customer Point Card avec l'ID {customerPointCardId} non trouvée.",
+    "customer_point_card_not_full": "La CustomerPointCard n'est pas complète.",
+    "emails_not_found": "Ces e-mails n'existent pas : {notFoundEmails}.",
+    "employee_already_exists": "Un employé existe déjà dans cette entreprise.",
+    "invalid_credentials": "Identifiants invalides.",
+    "invalid_object_id": "L'ID {id} n'est pas dans un format valide.",
+    "invalid_token_data": "Les données du jeton sont invalides ou incomplètes.",
+    "invalid_token_signature": "La signature du jeton est invalide.",
+    "point_card_creation_error": "Erreur lors de la création d'une nouvelle PointCard : {errorDetail}",
+    "point_card_not_found": "PointCard avec l'ID {id} non trouvée.",
+    "point_card_amount_reached": "Vous avez atteint la limite du nombre de cartes de points.",
+    "invalid_or_expired_qr_token": "Jeton invalide ou expiré.",
+    "qr_token_not_authorized_to_create": "Vous n'êtes pas autorisé à créer un QrToken pour la PointCard.",
+    "refresh_token_expired": "Le jeton d'actualisation a expiré.",
+    "refresh_token_not_found": "Jeton d'actualisation non trouvé.",
+    "stripe_user_delete_error": "Erreur lors de la suppression de l'utilisateur avec Stripe : {error}.",
+    "customer_portal_session_creation_error": "Erreur lors de la création de la session du portail client : {error}.",
+    "stripe_get_subscription_error": "Erreur lors de la récupération de l'abonnement avec Stripe : {error}.",
+    "stripe_update_user_error": "Erreur lors de la mise à jour de l'utilisateur avec Stripe : {error}.",
+    "stripe_customer_id_mismatch_user": "L'ID client Stripe ne correspond pas à l'utilisateur.",
+    "token_already_used": "Le jeton a déjà été utilisé.",
+    "token_mismatch_with_database": "Incohérence du jeton avec la base de données.",
+    "token_not_found_in_database": "Jeton non trouvé dans la base de données.",
+    "user_business_point_card_not_found": "L'utilisateur avec l'ID {userId} ne possède pas de BusinessPointCard avec l'ID {businessCardId}.",
+    "user_creation_error": "Erreur lors de la création d'un nouvel utilisateur.",
+    "user_data_cleanup_error": "Erreur lors du nettoyage des données utilisateur : {errorDetail}.",
+    "user_does_not_have_stripe_customer": "L'utilisateur avec l'ID {userId} n'a pas de client Stripe.",
+    "user_not_found_email": "Utilisateur avec l'email {email} non trouvé.",
+    "user_not_found": "Utilisateur avec l'ID {userId} non trouvé.",
+    "user_not_owner_of_company": "L'utilisateur avec l'ID {userId} n'est pas propriétaire de l'entreprise {companyId}.",
+    "user_not_owner_of_pointcard": "L'utilisateur avec l'ID {userId} n'est pas propriétaire de la pointcard.",
+    "user_update_error": "Erreur lors de la mise à jour de l'utilisateur : {errorDetail}.",
+    "invalid_stripe_token": "Le jeton Stripe est invalide.",
+    "offer_scan_limit_reached": "Vous avez atteint la limite de scan.",
+    "offer_not_found": "Offre avec token introuvable.",
+    "offer_start_date_in_past": "La date de début de l'offre est passée."
+  },
+
+  "generic": {
+    "internal_server_error": "Une erreur interne du serveur est survenue.",
+    "bad_request": "Requête invalide.",
+    "unauthorized": "Authentification requise.",
+    "forbidden": "Accès refusé.",
+    "not_found": "Ressource non trouvée.",
+    "general_error": "Une erreur s'est produite."
+  },
+  "emailMessages": {
+    "forgot_password_mail_sent": "Si l'adresse e-mail est présente dans notre base de données, nous avons envoyé un courriel avec des instructions pour réinitialiser votre mot de passe."
+}
+
+}

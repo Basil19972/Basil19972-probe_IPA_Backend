@@ -1,0 +1,61 @@
+{
+  "exceptions": {
+    "email_already_exists": "L'indirizzo email {email} è già registrato.",
+    "business_to_customer_point_card_not_found": "CustomerPointCard per BusinessPointCard con ID {businessCardId} non trovata",
+    "company_logo_invalid_svg": "Il file caricato non è un file SVG valido.",
+    "company_not_found_by_point_card": "Azienda con PointCardID {id} non trovata.",
+    "company_not_found_email": "Azienda con ID {id} non trovata.",
+    "company_not_found": "Azienda con ID {id} non trovata.",
+    "company_uid_already_exists": "L'azienda con UID {uId} è già registrata.",
+    "customer_point_card_creation_error": "Errore durante la creazione di una nuova CustomerPointCard: {errorDetail}",
+    "customer_point_card_not_found": "Customer Point Card con ID {customerPointCardId} non trovata.",
+    "customer_point_card_not_full": "La CustomerPointCard non è completa.",
+    "emails_not_found": "Queste email non esistono: {notFoundEmails}.",
+    "employee_already_exists": "Un impiegato esiste già in questa azienda.",
+    "invalid_credentials": "Credenziali non valide.",
+    "invalid_object_id": "L'ID {id} non è in un formato valido.",
+    "invalid_token_data": "I dati del token sono invalidi o incompleti.",
+    "invalid_token_signature": "La firma del token è invalida.",
+    "point_card_creation_error": "Errore durante la creazione di una nuova PointCard: {errorDetail}",
+    "point_card_not_found": "PointCard con ID {id} non trovata.",
+    "point_card_amount_reached": "Hai raggiunto il limite per il numero di carte punti.",
+    "invalid_or_expired_qr_token": "Token invalido o scaduto.",
+    "qr_token_not_authorized_to_create": "Non sei autorizzato a creare un QrToken per la PointCard.",
+    "refresh_token_expired": "Token di aggiornamento scaduto.",
+    "refresh_token_not_found": "Token di aggiornamento non trovato.",
+    "stripe_user_delete_error": "Errore nell'eliminazione dell'utente con Stripe: {error}.",
+    "customer_portal_session_creation_error": "Errore nella creazione della sessione del portale cliente: {error}.",
+    "stripe_get_subscription_error": "Errore nel recupero dell'abbonamento con Stripe: {error}.",
+    "stripe_update_user_error": "Errore nell'aggiornamento dell'utente con Stripe: {error}.",
+    "stripe_customer_id_mismatch_user": "ID cliente Stripe non corrisponde all'utente.",
+    "token_already_used": "Token già utilizzato.",
+    "token_mismatch_with_database": "Discrepanza del token con il database.",
+    "token_not_found_in_database": "Token non trovato nel database.",
+    "user_business_point_card_not_found": "Utente con ID {userId} non possiede una BusinessPointCard con ID {businessCardId}.",
+    "user_creation_error": "Errore durante la creazione di un nuovo utente.",
+    "user_data_cleanup_error": "Errore durante la pulizia dei dati utente: {errorDetail}.",
+    "user_does_not_have_stripe_customer": "Utente con ID {userId} non ha un cliente Stripe.",
+    "user_not_found_email": "Utente con Email {email} non trovato.",
+    "user_not_found": "Utente con ID {userId} non trovato.",
+    "user_not_owner_of_company": "Utente con ID {userId} non è proprietario dell'azienda {companyId}.",
+    "user_not_owner_of_pointcard": "Utente con ID {userId} non è proprietario della pointcard.",
+    "user_update_error": "Errore nell'aggiornamento dell'utente: {errorDetail}.",
+    "invalid_stripe_token": "Token Stripe non valido.",
+    "offer_scan_limit_reached": "Hai raggiunto il limite di scansione.",
+    "offer_not_found": "Offerta con token non trovata.",
+    "offer_start_date_in_past": "La data di inizio dell'offerta è nel passato."
+  },
+
+  "generic": {
+    "internal_server_error": "Si è verificato un errore interno del server.",
+    "bad_request": "Richiesta non valida.",
+    "unauthorized": "Autenticazione richiesta.",
+    "forbidden": "Accesso negato.",
+    "not_found": "Risorsa non trovata.",
+    "general_error": "Si è verificato un errore."
+  },
+  "emailMessages": {
+    "forgot_password_mail_sent": "Se l'indirizzo email è presente nel nostro database, abbiamo inviato un'email con le istruzioni per reimpostare la tua password."
+}
+
+}

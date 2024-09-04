@@ -1,0 +1,62 @@
+{
+  "exceptions": {
+    "email_already_exists": "The email address {email} is already registered.",
+    "business_to_customer_point_card_not_found": "CustomerPointCard for BusinessPointCard with ID {businessCardId} not found",
+    "company_logo_invalid_svg": "The uploaded file is not a valid SVG file.",
+    "company_not_found_by_point_card": "A Company with PointCardID {id} was not found.",
+    "company_not_found_email": "Company with Id {id} not found.",
+    "company_not_found": "Company with Id {id} not found.",
+    "company_uid_already_exists": "The company with the UID {uId} is already registered.",
+    "customer_point_card_creation_error": "Error while creating a new CustomerPointCard: {errorDetail}",
+    "customer_point_card_not_found": "Customer Point Card with ID {customerPointCardId} not found.",
+    "customer_point_card_not_full": "CustomerPointCard is not full.",
+    "emails_not_found": "These E-Mails don't exist: {notFoundEmails}.",
+    "employee_already_exists": "Employee already exists in this company.",
+    "invalid_credentials": "Invalid credentials.",
+    "invalid_object_id": "The ID {id} is not a valid format.",
+    "invalid_token_data": "Token data is invalid or incomplete.",
+    "invalid_token_signature": "Token signature is invalid.",
+    "point_card_creation_error": "Error while creating a new PointCard: {errorDetail}",
+    "point_card_not_found": "PointCard with ID {id} not found.",
+    "point_card_amount_reached": "You have reached the limit for the number of point cards.",
+    "invalid_or_expired_qr_token": "Invalid or expired token.",
+    "qr_token_not_authorized_to_create": "You are not authorized to create a QrToken for the PointCard.",
+    "refresh_token_expired": "Refresh token expired.",
+    "refresh_token_not_found": "Refresh token not found.",
+    "stripe_user_delete_error": "Error deleting user with Stripe: {error}.",
+    "customer_portal_session_creation_error": "Error creating customer portal session: {error}.",
+    "stripe_get_subscription_error": "Error retrieving subscription with Stripe: {error}.",
+    "stripe_update_user_error": "Error updating user with Stripe: {error}.",
+    "stripe_customer_id_mismatch_user": "Stripe Customer ID mismatch user.",
+    "token_already_used": "Token already used.",
+    "token_mismatch_with_database": "Token mismatch with database.",
+    "token_not_found_in_database": "Token not found in database.",
+    "user_business_point_card_not_found": "User with ID {userId} does not have BusinessPointCard with ID {businessCardId}.",
+    "user_creation_error": "Error while creating a new user.",
+    "user_data_cleanup_error": "Error during user data cleanup: {errorDetail}.",
+    "user_does_not_have_stripe_customer": "User with ID {userId} does not have a stripe customer.",
+    "user_not_found_email": "User with Email {email} not found.",
+    "user_not_found": "User with ID {userId} not found.",
+    "user_not_owner_of_company": "User with ID {userId} not owner of company {companyId}.",
+    "user_not_owner_of_pointcard": "User with ID {userId} is not owner of the pointcard.",
+    "user_update_error": "Error updating user: {errorDetail}.",
+    "invalid_stripe_token": "Invalid Stripe token.",
+    "offer_scan_limit_reached": "You have reached the scan limit.",
+    "offer_not_found": "Offer with token not found.",
+    "offer_start_date_in_past": "The offers start date is in the past."
+  },
+
+  "generic": {
+    "internal_server_error": "An internal server error occurred.",
+    "bad_request": "Invalid request.",
+    "unauthorized": "Authentication required.",
+    "forbidden": "Access denied.",
+    "not_found": "Resource not found.",
+    "general_error": "An error occurred."
+  },
+  "emailMessages": {
+    "forgot_password_mail_sent": "If the email address is in our database, we have sent an email with instructions to reset your password."
+}
+
+
+}
