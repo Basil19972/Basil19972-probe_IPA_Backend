@@ -1,10 +1,11 @@
-import { Controller, Get, UseGuards } from '@nestjs/common';
 import { CheckAbilities } from '../security/abilities.decorator';
 import { AbilitiesGuard } from '../security/abilities.guard';
 import { Actions } from '../security/ability.factory';
 import { JwtAuthGuard } from '../security/jwt.guard';
 import { User } from '../appUser/appUser.decorator';
 import { AppUser } from '../appUser/appUser.schema';
+import { AnalyticsService } from './analytics.service';
+import { Controller, Get, UseGuards } from '@nestjs/common';
 
 /**
  * Datei: analytics.controller.ts
@@ -19,7 +20,7 @@ import { AppUser } from '../appUser/appUser.schema';
 @Controller('analytics')
 export class AnalyticsController {
   // Der AnalyticsService wird in diesem Controller verwendet, um die Geschäftslogik zu handhaben.
-  constructor() {}
+  constructor(private readonly analyticsService: AnalyticsService) {}
 
   /**
    * Endpunkt: GET /analytics/pointsByPointCrads
